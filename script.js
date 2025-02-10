@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const shareBtn = document.getElementById('share-btn');
 
     // Connect to the Socket.IO server
-    const socket = io();
+    const socket = io('https://chat-y7rg.onrender.com');
 
     // Initialize Emoji Button
     const picker = new EmojiButton();
