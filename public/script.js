@@ -5,7 +5,7 @@ const emojiBtn = document.getElementById('emoji-btn');
 const shareBtn = document.getElementById('share-btn');
 
 // Connect to the Socket.IO server
-const socket = io();
+const socket = io('https://chat-xb5n.onrender.com');
 
 // Initialize Emoji Button
 const picker = new EmojiButton();
